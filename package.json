@@ -1,0 +1,31 @@
+{
+  "name": "xget",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "tool": "./dist/bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bin/index.js"
+  },
+  "_moduleAliases": {
+    "@": "dist"
+  },
+  "keywords": [],
+  "author": "Ciubotariu Iulian",
+  "license": "ISC",
+  "description": "A simple http cli inspired by curl",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^4.1.2",
+    "cli-progress": "^3.12.0",
+    "module-alias": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
